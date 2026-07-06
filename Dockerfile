@@ -8,7 +8,7 @@ RUN apk add --no-cache \
 
 WORKDIR /app
 
-RUN curl -fLs -o /app/deltachat-rpc-server "https://github.com/chatmail/core/releases/download/v2.6.0/deltachat-rpc-server-x86_64-linux" \
+RUN curl -fLs -o /app/deltachat-rpc-server "https://github.com/chatmail/core/releases/download/v2.53.0/deltachat-rpc-server-x86_64-linux" \
 	&& chmod +x /app/deltachat-rpc-server
 
 
